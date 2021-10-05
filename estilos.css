@@ -9,7 +9,7 @@ body {
   background-image:url("images/pattern.jpg");
   font-family:Arial, Helvetica, sans-serif;
 }
-.cabecera,s
+.cabecera
 .contenedor {
   max-width: 1000px;
   margin: auto;
@@ -17,6 +17,7 @@ body {
 }
 .contenedor {
   background-color:var(--blanco);
+  border-radius: 8px 8px 0 0;
 }
 h1{
   color:var(--naranja);
@@ -26,7 +27,9 @@ h1{
   display:flex;
   justify-content:space-between;
   padding: bottom 8px;
+  align-items: center;
 }
-nav{
+ .nav{
   background-color:var(--naranja);
+  border-radius: 8px 8px 0 0;
 }
