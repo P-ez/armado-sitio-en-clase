@@ -4,6 +4,11 @@
   --blanco:#FFF;
 }
 
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
 body {
   background-color:var(--negro);
   background-image:url("images/pattern.jpg");
@@ -33,3 +38,24 @@ h1{
   background-color:var(--naranja);
   border-radius: 8px 8px 0 0;
 }
+
+
+
+.nav-lista{background-color:pink;
+  display:flex;}
+  
+  .nav-lista-item {background-color:blueviolet;
+    list-style:none;
+    justify-content:space-around}
+.nav-link{background-color:blue;
+  color:var(--blanco);
+  font-weight: bold; 
+  text-decoration:none;
+
+}
+.nav-form{background-color: tomato;
+}
+
+.nav link:hover{text-decoration:underline;
+}
+
