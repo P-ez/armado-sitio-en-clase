@@ -16,7 +16,7 @@ body {
   align-items:center;
 }
 .contenedor {
-  background-color:var(--naranja);
+  background-color:var(--blanco);
 }
 h1{
   color:var(--naranja);
@@ -26,4 +26,7 @@ h1{
   display:flex;
   justify-content:space-between;
   padding: bottom 8px;
+}
+nav{
+  background-color:var(--naranja);
 }
